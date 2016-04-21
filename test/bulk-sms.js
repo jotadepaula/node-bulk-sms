@@ -1,5 +1,6 @@
 const expect = require("chai").expect;
 const Bulk   = require("../lib/Bulk");
+const testData = require ('./test-data.json');
 
 describe("Bulk-sms suite tes",function() {
     
@@ -26,7 +27,24 @@ describe("Bulk-sms suite tes",function() {
             expect(Bulk.CONFIGS.PASSWORD).to.not.be.empty;
         });
         
+        
+        it('Send message method is valid?', function () {
+            expect(Bulk).itself.to.respondTo('sendMessage');
+        });                
+    })
+    
+    
+    describe('SMS sending method test', function () {
+       
+       it('Test Send Message', function () {
+           Bulk.sendMessage(testData.message,testData.phone,function(response) {
+               expect(response).to.not.be.empty;                              
+           });
+       });
+        
     });
+    
+    
     
 })
 

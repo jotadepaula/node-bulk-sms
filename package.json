@@ -27,7 +27,8 @@
   "homepage": "https://github.com/jotadepaula/node-bulk-sms",
   "dependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
