@@ -42,10 +42,7 @@ describe("Bulk-sms suite tes",function() {
            });
        });
         
-    });
-    
-    
-    
-})
+    });            
+});
 
 
