@@ -60,3 +60,5 @@ jspm_packages
 
 # Account data to send sms messages see more: http://www.bulksms.com/ 
 account_setup.json
+
+./test/test-data.json
