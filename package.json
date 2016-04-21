@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/jotadepaula/node-bulk-sms/issues"
   },
-  "homepage": "https://github.com/jotadepaula/node-bulk-sms"
+  "homepage": "https://github.com/jotadepaula/node-bulk-sms",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
 }
