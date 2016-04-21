@@ -57,3 +57,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Account data to send sms messages see more: http://www.bulksms.com/ 
+account_setup.json
