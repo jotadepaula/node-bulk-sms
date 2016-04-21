@@ -1,0 +1,28 @@
+{
+  "name": "node-bulk-sms",
+  "version": "1.0.0",
+  "description": "bulk-SMS is a module for use of bulk-SMS service for sending text messages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jotadepaula/node-bulk-sms.git"
+  },
+  "keywords": [
+    "sms",
+    "bulk",
+    "message",
+    "send"
+  ],
+  "author": "@jotadepaula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jotadepaula/node-bulk-sms/issues"
+  },
+  "homepage": "https://github.com/jotadepaula/node-bulk-sms"
+}
