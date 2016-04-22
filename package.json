@@ -1,6 +1,6 @@
 {
   "name": "node-bulk-sms",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "bulk-SMS is a module for use of bulk-SMS service for sending text messages",
   "main": "index.js",
   "directories": {
