@@ -12,7 +12,7 @@ npm install node-bulk-sms
 var bulk = require('node-bulk-sms');
 
 bulk.setUsername('your username');
-bulk.setPassword('your username');
+bulk.setPassword('your password');
 bulk.sendMessage('message','cell phone',function(result){
     console.log(result);
 });
