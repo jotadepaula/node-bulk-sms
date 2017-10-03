@@ -30,7 +30,7 @@
   },
   "devDependencies": {    
     "chai": "^3.5.0",
-    "mocha": "^3.5.3",
+    "mocha": "^4.0.0",
     "coveralls": "^2.11.9",
     "gulp": "^3.9.1",
     "gulp-mocha": "^2.2.0"
